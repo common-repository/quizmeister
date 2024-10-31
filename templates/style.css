@@ -1,0 +1,102 @@
+/*
+ Theme Name:   Twenty Fifteen QM
+ Theme URI:    http://demio.us/quizmeister/
+ Description:  Child theme of Twenty Fifteen with QuizMeister support (required for correct plugin operation)
+ Author:       Chris Dennett
+ Author URI:   http://demio.us
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-qm
+*/
+
+article.quiz {
+	padding-top: 5% !important;
+}
+
+article.quiz h1.entry-title {
+	clear: left;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	/*! /*! word-wrap: break-word; */ /*! *\/ */
+}
+
+span.fb-share-btn a {
+	padding: 0px !important;
+	spacing: 0px !important;
+	margin: 0px !important;
+	outline: none !important;
+	text-decoration: none !important;
+	border: none !important;
+}
+
+span.fb-share-btn a:link, span.fb-share-btn a:hover, span.fb-share-btn a:active, span.fb-share-btn a:visited {
+	outline: none;
+	text-decoration: none;
+}
+
+span.tw-share-button, span.fb-share-btn {
+	padding: 0px 5px 5px 0px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+span.tw-share-button {
+	height: 28px;
+}
+
+#qm-share-stuff {
+	padding-bottom: 10px;
+}
+
+#qm-answer-list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+}
+
+article.quiz h1.entry-title {
+}
+
+article.quiz .post-thumbnail {
+	float: right;
+}
+
+article.quiz.in-quiz .post-thumbnail {
+
+}
+
+article.quiz .post-thumbnail {
+	width: 40%;
+	height: 40%;
+}
+
+article.quiz .post-thumbnail img {
+	/*border: 1px solid #021a40;*/
+}
+
+article.quiz.in-quiz .post-thumbnail img {
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#qm-about {
+	margin-top: 20px;
+	font-size: 8px;
+	float: right;
+	text-align: right;
+	color: darkgray;
+	word-wrap: break-word;
+	display: block;
+	width: 50%;
+}
+
+#qm-about a, #qm-about a:hover, #qm-about a:visited, #qm-about a:active, #qm-about a:focus {
+	color: darkgray;
+	border-bottom: 1px solid darkgray;
+	font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.metabox-holder {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+.postbox .group {
+	margin: 10px;
+}
+
+.form-table th, .form-table td {
+	padding-bottom: 1px;
+}
+
+.qm-setsec {
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: #ddd;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.qm-setsec h2 {
+	border-bottom: 1px solid #999;
+}
+
+.qm-setsec .submit {
+	padding-left: 10px;
+}
+
+#qm-upl-err {
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+}
+
+#qm-admin-support {
+	padding-bottom: 5px;
+}
+
+#qm-donate {
+	font-size: 12px;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
+#qm-admin-title {
+	padding-bottom: 15px;
+}
